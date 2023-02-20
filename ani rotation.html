@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+#id{
+    height:69px;
+    width: 775px;
+    border:1px solid gray;
+    background-color: gray;
+    margin: auto;
+    border-radius: 62px;
+}
+#div{
+    height: 50px;
+    width:750px;
+    border: 1px solid black;
+    border-radius: 72px;
+    margin-top:9px ;
+    margin-left:13px ;
+    animation-name:color;
+    animation-duration:10s;
+}
+@keyframes color{
+    0%{
+        top:0px;
+        left:10px;
+        background-image:linear-gradient( green);
+    }
+    10%{
+        top:0px;
+        left: 20px;
+        background-image:linear-gradient(yellow);
+    }
+}
+    </style>
+</head>
+<body>
+    <div id="id">
+        <div id="div"></div>
+    </div>
+</body>
+</html>
